@@ -1,0 +1,30 @@
+sw files :-
+FILES = [
+'./',
+'./Tool-box.html',
+'./Tool-box.css',
+'./Tool-box.js',
+'./manifest.json',
+'./calculator/calc.html',
+'./calculator/calc.css',
+'./calculator/calc.js',
+'./Date Calculator/date.html',
+'./Date Calculator/date.css',
+'./Date Calculator/date.js',
+'./Password Generator/password.html',
+'./Password Generator/password.css',
+'./Password Generator/password.js',
+'./Password Generator/password.js',
+'./Percent Calc/percent.html',
+'./Percent Calc/percent.css',
+'./Percent Calc/percent.js',
+"./icons/icon-72.png"
+"./icons/icon-96.png"
+"./icons/icon-128.png"
+"./icons/icon-144.png"
+"./icons/icon-152.png"
+"./icons/icon-192.png"
+"./icons/icon-384.png"
+"./icons/icon-512.png"
+]
+try netlify to upload yor website

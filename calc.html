@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple Calculator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <button id="back">&larr;</button>
+    <h1>simple calculator</h1>
+    <hr />
+    <label for="firstNum">Enter The First Number</label><br />
+    <input type="number" id="firstNum" placeholder="1,2,3. . . ." /><br />
+
+    <label for="operator">Enter The Operator</label><br />
+    <input type="text" id="operator" placeholder="+ ,- ,÷ ,× . . ." /><br />
+
+    <label for="secondNum">Enter The Second Number</label><br />
+    <input type="number" id="secondNum" placeholder="1,2,3. . . ." />
+    <br />
+    <button id="clear" onclick="clearance()">Clear</button>
+    <button id="enter" onclick="op()">Enter</button>
+    <h2 id="result"></h2>
+    <script src="calc.js"></script>
+  </body>
+</html>
